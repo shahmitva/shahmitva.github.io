@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -18,6 +17,20 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
 
+<style>
+div.skill {
+
+  padding:0.6em 2em;
+  border-radius: 8px;
+  color:#fff;
+  background-color:#1976d2;
+  font-size:1.1em;
+  font-alignment:center;
+  border:0;
+  cursor:pointer;
+  margin:1em;
+}
+</style>
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
         <div class="wrapper">
             <div class="sidebar">
@@ -150,23 +163,7 @@
                                     <div>
                                         <p>I can work as an individual as well as in a team.</p>
                                     </div>
-                                </div>
-                                <div class="miscellaneous-item">
-                                    <div>
-                                        <i class="fas fa-map-marked-alt" style="margin-right:15px;"></i>
-                                    </div>
-                                    <div>
-                                        <p>I love to travel & explore.</p>
-                                    </div>
-                                </div>
-                                <!-- <div class="miscellaneous-item">
-                                    <div>
-                                        <i class="fas fa-hamburger" style="margin-right:17px;"></i>
-                                    </div>
-                                    <div>
-                                        <p>I do food blogging sometimes <a href="https://www.instagram.com/decoding_food/" target="_blank">@decoding_food</a></p>
-                                    </div>
-                                </div>  -->                                   
+                                </div>                                   
                             </div>
                         </div>
                     </div>
@@ -186,9 +183,10 @@
                                     <span>January-2022 <i>to </i> Present</span>
                                     <h3>Junior Java Developer</h3>
                                     <p class="company-name">Dakshya Freondtech</p>
-                                    <p class="internship-details">I have worked in shopify, bigcommerce, wps, microsoft graph apis, itextPDF, apexcharts and 
-				also with different payment gateways like apple pay, google pay, paytm & razorpay.</p>
-                                    <p><strong>Tech Stack - </strong>Java, Spring Boot, Hibernate, Reactive Programming</p>
+                                    <p class="internship-details">I have worked in shopify, bigcommerce, amazon, salesforce, wps, microsoft graph apis, itextPDF, sendgrid, zoho, apexcharts, 
+dynamic scheduling, webhook and also with different payment gateways like apple pay, google pay, paytm & razorpay. I got chance of devlopment as well as deployment 
+and received 'Super Fast Developer Award' for completing almost all the projects before time.</p>
+                                    <p><strong>Tech Stack - </strong>Java, Spring Boot, Hibernate, Reactive Programming, FTL, Docker</p>
                                 </div>
                             </div>                     
                             <div>
@@ -196,9 +194,9 @@
                                     <span>May-2021 <i>to </i> December-2021</span>
                                     <h3>Spring Boot Developer Intern</h3>
                                     <p class="company-name">DIPC Tech Private Limited</p>
-                                    <p class="internship-details">Complated eight months of internship during which I have worked with 2 live projects:</br>
+                                    <p class="internship-details">Completed eight months of internship during which I have completed 2 live projects: </br>
 					1. NatureOm plant care       2. Cloud Kitchen Management</p>
-                                    <p><strong>Tech Stack - </strong>Java - (Spring Boot, Hibernate)</p>
+                                    <p><strong>Tech Stack - </strong>Java - (Spring Boot, Hibernate, OAuth2.0)</p>
                                 </div>
                             </div>
                         </div>
@@ -217,28 +215,10 @@
                             <div>
                                 <div class="edu-col border-btm">
                                     <span>2020 <i>to </i> 2022 </span>
-                                    <h3>Masters Degree</h3>
+                                    <h3>MSc-CA & IT</h3>
                                     <p>K.S School of Business Managment (Gujarat University), Ahmedabad</p>
-                                    <p>Masters of Science in Computer Application & Information Technology (BSc-CA & IT)</p>
+                                    <p>Masters of Science in Computer Application & Information Technology (MSc-CA & IT)</p>
                                     <p><strong>CPI - 8.06 </strong></p>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="edu-col border-btm">
-                                    <span>2017 <i>to </i>2020</span>
-                                    <h3>Bachelors Degree</h3>
-                                    <p>K.S School of Business Managment (Gujarat University), Ahmedabad</p>
-                                    <p>Bachelor of Science in Computer Application & Information Technology (BSc-CA & IT)</p>
-                                    <p><strong>CPI - 7.18</strong></p>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="edu-col border-btm">
-                                    <span>2015 <i>to </i>2017</span>
-                                    <h3>HSC</h3>
-                                    <p>Vidhyanagar Girls High School, Ahmedabad</p>
-                                    <!-- <p>Commerce - PCB with CS</p> -->
-                                    <p><strong>Percentage - 81.43%</strong></p>
                                 </div>
                             </div>
                         </div>
@@ -248,66 +228,100 @@
 
                 
                 <!-- Service Start -->
-                <div class="service" id="service">
+                <!-- <div class="service" id="service">
                     <div class="content-header">
                         <h2>Skills</h2>
                     </div>
-                    <div class="content-inner skill-arrangement">
-                        <div style="max-width: 350px; min-width: 310px;">
-                            <h3 style="margin-left: 90px; margin-bottom: 20px;">Technical</h3>
-                            <div class="row">
-                                <div class="skills-tech">
-                                    <div role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="--value:85"></div>
-                                    <div class="skill-name-tech">
-                                        <p>Core Java, Spring Boot, Hibernate, Struts2.0</p>
-                                    </div>
-                                    <div role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="--value:60"></div>
-                                    <div class="skill-name-tech">
-                                        <p>SQL , DBMS, JS, CSS, HTML</p>
-                                    </div>
-                                </div>
+		<div class="row">
+		<div class="col-2 skill"><p class="skill">Core Java</p></div>
+		<div class="col-2 skill"><p>Spring boot</p></div>
+		<div class="col-2 skill"><p>Hibernate</p></div>
+		<div class="col-2 skill"><p>Struts 2.0</p></div>
+		</div>
+		<div class="row">
+		<div class="col-3 skill"><p>Reactive Programming</p></div>
+		<div class="col-2 skill"><p>SQL</p></div>
+		<div class="col-2 skill"><p>DBMS</p></div>
+		<div class="col-2 skill"><p>HTML</p></div>
+		</div>
+		<div class="row">
+		<div class="col-2 skill"><p>CSS</p></div>
+		<div class="col-2 skill"><p>Java Script</p></div>
+		</div>	
+				
+                    
+                </div> -->
 
-                                <!--<div class="skills">
-                                    <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="--value:80"></div>
-                                    <div class="skill-name">
-                                        <p>Spring Boot, Hibernate, Struts2.0</p>
-                                    </div>
-                                    <div role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="--value:50"></div>
-                                    <div class="skill-name">
-                                        <p>JS, CSS, HTML</p>
-                                    </div>
-                                </div>-->
+                <div class="service-new" id="portfolio">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>Skills</h2>
+                        </div>
+                         <div class="row">
+                            <div class="col-lg-12">
+                                <ul id="service-new-flters">
+                                     <li data-filter=".all">All</li>
+                                    <li data-filter=".tech">Technology</li>
+                                    <li data-filter=".personal-skill">Interpersonal Skills</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class = "vertical-border"></div>
-                        <div class="row language-margin" style="max-width: 50%; min-width: 310px; max-height: 340px;">
-                            <h3 style="margin-left: 90px; margin-bottom: -5px;">Languages</h3>
-                            <div>
-                                <div class="skills">
-                                    <div class="skill-name">
-                                        <p>English</p>
-                                    </div>
-                                    <div class="progress-lang">
-                                        <div class="progress-value" style="--value:85%"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p>Hindi</p>
-                                    </div>
-                                    <div class="progress-lang">
-                                        <div class="progress-value" style="--value:60%"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p>Gujarati</p>
-                                    </div>
-                                    <div class="progress-lang">
-                                        <div class="progress-value" style="--value:95%"></div>
-                                    </div>
-                                
-                                </div>
+                        <div class="row service-new-container">
+                            <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >Core Java</div>
+                            </div>
+                            <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >Spring boot</div>
+                            </div>
+			                <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >Hibernate</div>
+                            </div>
+			                <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >Struts 2.0</div>                                
+                            </div>
+			                <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >Reactive Programming</div>
+                            </div>
+                            <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >Spring security</div>
+                            </div>
+                            <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >SQL</div>
+                            </div>
+                            <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >DBMS</div>
+                            </div>
+                            <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >FTL</div>
+                            </div>
+                            <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >HTML</div>
+                            </div>
+                            <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >CSS</div>
+                            </div>
+                            <div class="all-skills service-new-item all tech">
+                                <div class="all-skills-p" >Java Script</div>
+                            </div>
+                            <div class="all-skills service-new-item all personal-skill">
+                                <div class="all-skills-p" >Communication</div>
+                            </div>
+                            <div class="all-skills service-new-item all personal-skill">
+                                <div class="all-skills-p" >Leadership</div>
+                            </div>
+                            <div class="all-skills service-new-item all personal-skill">
+                                <div class="all-skills-p" >Problem Solving</div>
+                            </div>
+                            <div class="all-skills service-new-item all personal-skill">
+                                <div class="all-skills-p" >Team Work</div>
+                            </div>
+                            <div class="all-skills service-new-item all personal-skill">
+                                <div class="all-skills-p" >Management</div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>                                  
+                            
                 <!-- Service End -->
                 
                 <!-- Portfolio Start -->

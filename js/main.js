@@ -44,6 +44,18 @@
     });
     
     
+  var serviceNewIsotope = $(".service-new-container").isotope({
+    itemSelector: ".service-new-item",
+    layoutMode: "fitRows",
+  });
+
+  $("#service-new-flters li").on("click", function () {
+    $("#service-new-flters li").removeClass("filter-active");
+    $(this).addClass("filter-active");
+
+    serviceNewIsotope.isotope({ filter: $(this).data("filter") });
+  });
+
     // Review slider
     $('.review-slider').slick({
         autoplay: true,

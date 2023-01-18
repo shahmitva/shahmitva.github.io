@@ -938,6 +938,84 @@ a:focus {
     margin: 0;
 }
 
+/* New Service */
+
+
+ .service-new {
+    position: relative;
+    min-width: 300px;
+    padding: 60px 30px 30px 30px;
+    background: #31313a;
+    border-bottom: 30px solid #26262d;
+}
+
+.service-new #service-new-flters {
+    min-width: 400px;
+    padding: 0;
+    margin: -15px 0 35px 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.service-new #service-new-flters li {
+    cursor: pointer;
+    margin: 15px -1px 0 0;
+    display: inline-block;
+    height: 35px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    border: 1px solid #4a81f7;
+    background: #31313a;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-new #service-new-flters li:hover,
+.service-new #service-new-flters li.filter-active {
+    background: #4a81f7;
+    color: #ffffff;
+}
+
+/* .service-new .service-new-item {
+     display: flex;
+    flex-direction: row; 
+    width: 22%;
+    min-width: 180px;
+    justify-content: center;
+    text-align: center;
+} */
+
+@media (max-width:590px){
+    .service-new-container {
+        margin:auto; 
+        width: 85%;
+    }
+}
+
+.all-skills {
+    display: flex;
+    flex-direction: row;
+    margin-right: 11px;
+    width: auto;
+    min-width: 45px;
+    /* gap: 5px; */
+    margin-top: 15px;
+    /* padding-left: 12px !important; */
+    /* margin-right: 10px; */
+    border: 2px solid #4A81F7;
+    border-radius: 15px;
+}
+
+.all-skills .all-skills-p {
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
 
 /**********************************/
 /********** Portfolio CSS *********/
